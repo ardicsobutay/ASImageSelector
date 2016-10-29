@@ -40,7 +40,7 @@ typedef enum {
 }
 
 - (instancetype)initWithImage:(UIImage *)image andRect:(CGRect)rect {
-    self = [[ASImageSelectorVC alloc] initWithNibName:@"ASImageSelectorVC" bundle:[NSBundle mainBundle]];
+    self = [[ASImageSelectorVC alloc] initWithNibName:@"ASImageSelectorVC" bundle:[NSBundle bundleForClass:[ASImageSelectorVC class]]];
     _image = image;
     _selectionRect = rect;
     return self;
