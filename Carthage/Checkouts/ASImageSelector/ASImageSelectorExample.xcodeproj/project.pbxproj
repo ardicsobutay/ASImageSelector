@@ -11,7 +11,7 @@
 		DF02637E1DC4DCEE0063CE60 /* ASImageSelectorVC.h in Headers */ = {isa = PBXBuildFile; fileRef = DF0263761DC4DCEE0063CE60 /* ASImageSelectorVC.h */; };
 		DF02637F1DC4DCEE0063CE60 /* ASImageSelectorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0263771DC4DCEE0063CE60 /* ASImageSelectorVC.m */; };
 		DF0263801DC4DCEE0063CE60 /* ASImageSelectorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF0263781DC4DCEE0063CE60 /* ASImageSelectorVC.xib */; };
-		DF0263811DC4DCEE0063CE60 /* ASRectUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = DF0263791DC4DCEE0063CE60 /* ASRectUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF0263811DC4DCEE0063CE60 /* ASRectUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = DF0263791DC4DCEE0063CE60 /* ASRectUtils.h */; };
 		DF0263821DC4DCEE0063CE60 /* ASRectUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DF02637A1DC4DCEE0063CE60 /* ASRectUtils.m */; };
 		DF0263831DC4DCEE0063CE60 /* ASRectView.h in Headers */ = {isa = PBXBuildFile; fileRef = DF02637B1DC4DCEE0063CE60 /* ASRectView.h */; };
 		DF0263841DC4DCEE0063CE60 /* ASRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF02637C1DC4DCEE0063CE60 /* ASRectView.m */; };
@@ -23,7 +23,6 @@
 		DFE67FDD1DC4D0DC0053AEBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE67FDC1DC4D0DC0053AEBD /* ViewController.m */; };
 		DFE680051DC4D4C20053AEBD /* ASImageSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE680031DC4D4C20053AEBD /* ASImageSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFE680081DC4D4C20053AEBD /* ASImageSelector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE680011DC4D4C20053AEBD /* ASImageSelector.framework */; };
-		DFE680091DC4D4C20053AEBD /* ASImageSelector.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DFE680011DC4D4C20053AEBD /* ASImageSelector.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +42,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				DFE680091DC4D4C20053AEBD /* ASImageSelector.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;

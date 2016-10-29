@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <ASImageSelector/ASRectUtils.h>
 
 //! Project version number for ASImageSelector.
 FOUNDATION_EXPORT double ASImageSelectorVersionNumber;
