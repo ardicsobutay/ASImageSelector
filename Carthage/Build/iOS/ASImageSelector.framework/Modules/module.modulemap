@@ -1,0 +1,6 @@
+framework module ASImageSelector {
+  umbrella header "ASImageSelector.h"
+
+  export *
+  module * { export * }
+}

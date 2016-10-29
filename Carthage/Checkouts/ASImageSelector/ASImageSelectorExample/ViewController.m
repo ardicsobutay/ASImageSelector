@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <ASImageSelector/ASImageSelector.h>
+#import "ASImageSelector.h"
 
 @interface ViewController () <ASImageSelectorDelegate>
 
