@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		DFE67FC61DC4D0BD0053AEBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE67FC51DC4D0BD0053AEBD /* main.m */; };
 		DFE67FC91DC4D0BD0053AEBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE67FC81DC4D0BD0053AEBD /* AppDelegate.m */; };
-		DFE67FCC1DC4D0BD0053AEBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE67FCB1DC4D0BD0053AEBD /* ViewController.m */; };
 		DFE67FCF1DC4D0BD0053AEBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE67FCD1DC4D0BD0053AEBD /* Main.storyboard */; };
 		DFE67FD11DC4D0BD0053AEBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFE67FD01DC4D0BD0053AEBD /* Assets.xcassets */; };
 		DFE67FD41DC4D0BD0053AEBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE67FD21DC4D0BD0053AEBD /* LaunchScreen.storyboard */; };
+		DFE67FDD1DC4D0DC0053AEBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE67FDC1DC4D0DC0053AEBD /* ViewController.m */; };
+		DFE67FE81DC4D1260053AEBD /* ASImageSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE67FE01DC4D1260053AEBD /* ASImageSelector.m */; };
+		DFE67FE91DC4D1260053AEBD /* ASImageSelectorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE67FE21DC4D1260053AEBD /* ASImageSelectorVC.m */; };
+		DFE67FEA1DC4D1260053AEBD /* ASImageSelectorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFE67FE31DC4D1260053AEBD /* ASImageSelectorVC.xib */; };
+		DFE67FEB1DC4D1260053AEBD /* ASRectUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE67FE51DC4D1260053AEBD /* ASRectUtils.m */; };
+		DFE67FEC1DC4D1260053AEBD /* ASRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE67FE71DC4D1260053AEBD /* ASRectView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +25,21 @@
 		DFE67FC51DC4D0BD0053AEBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFE67FC71DC4D0BD0053AEBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DFE67FC81DC4D0BD0053AEBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DFE67FCA1DC4D0BD0053AEBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DFE67FCB1DC4D0BD0053AEBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DFE67FCE1DC4D0BD0053AEBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DFE67FD01DC4D0BD0053AEBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFE67FD31DC4D0BD0053AEBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFE67FD51DC4D0BD0053AEBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFE67FDB1DC4D0DC0053AEBD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFE67FDC1DC4D0DC0053AEBD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFE67FDF1DC4D1260053AEBD /* ASImageSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASImageSelector.h; sourceTree = "<group>"; };
+		DFE67FE01DC4D1260053AEBD /* ASImageSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASImageSelector.m; sourceTree = "<group>"; };
+		DFE67FE11DC4D1260053AEBD /* ASImageSelectorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASImageSelectorVC.h; sourceTree = "<group>"; };
+		DFE67FE21DC4D1260053AEBD /* ASImageSelectorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASImageSelectorVC.m; sourceTree = "<group>"; };
+		DFE67FE31DC4D1260053AEBD /* ASImageSelectorVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ASImageSelectorVC.xib; sourceTree = "<group>"; };
+		DFE67FE41DC4D1260053AEBD /* ASRectUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASRectUtils.h; sourceTree = "<group>"; };
+		DFE67FE51DC4D1260053AEBD /* ASRectUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASRectUtils.m; sourceTree = "<group>"; };
+		DFE67FE61DC4D1260053AEBD /* ASRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASRectView.h; sourceTree = "<group>"; };
+		DFE67FE71DC4D1260053AEBD /* ASRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASRectView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +74,10 @@
 			children = (
 				DFE67FC71DC4D0BD0053AEBD /* AppDelegate.h */,
 				DFE67FC81DC4D0BD0053AEBD /* AppDelegate.m */,
-				DFE67FCA1DC4D0BD0053AEBD /* ViewController.h */,
-				DFE67FCB1DC4D0BD0053AEBD /* ViewController.m */,
 				DFE67FCD1DC4D0BD0053AEBD /* Main.storyboard */,
+				DFE67FDB1DC4D0DC0053AEBD /* ViewController.h */,
+				DFE67FDC1DC4D0DC0053AEBD /* ViewController.m */,
+				DFE67FDE1DC4D1260053AEBD /* ASImageEditor */,
 				DFE67FD01DC4D0BD0053AEBD /* Assets.xcassets */,
 				DFE67FD21DC4D0BD0053AEBD /* LaunchScreen.storyboard */,
 				DFE67FD51DC4D0BD0053AEBD /* Info.plist */,
@@ -77,6 +92,22 @@
 				DFE67FC51DC4D0BD0053AEBD /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFE67FDE1DC4D1260053AEBD /* ASImageEditor */ = {
+			isa = PBXGroup;
+			children = (
+				DFE67FDF1DC4D1260053AEBD /* ASImageSelector.h */,
+				DFE67FE01DC4D1260053AEBD /* ASImageSelector.m */,
+				DFE67FE11DC4D1260053AEBD /* ASImageSelectorVC.h */,
+				DFE67FE21DC4D1260053AEBD /* ASImageSelectorVC.m */,
+				DFE67FE31DC4D1260053AEBD /* ASImageSelectorVC.xib */,
+				DFE67FE41DC4D1260053AEBD /* ASRectUtils.h */,
+				DFE67FE51DC4D1260053AEBD /* ASRectUtils.m */,
+				DFE67FE61DC4D1260053AEBD /* ASRectView.h */,
+				DFE67FE71DC4D1260053AEBD /* ASRectView.m */,
+			);
+			path = ASImageEditor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +172,7 @@
 				DFE67FD41DC4D0BD0053AEBD /* LaunchScreen.storyboard in Resources */,
 				DFE67FD11DC4D0BD0053AEBD /* Assets.xcassets in Resources */,
 				DFE67FCF1DC4D0BD0053AEBD /* Main.storyboard in Resources */,
+				DFE67FEA1DC4D1260053AEBD /* ASImageSelectorVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,9 +183,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFE67FCC1DC4D0BD0053AEBD /* ViewController.m in Sources */,
+				DFE67FEC1DC4D1260053AEBD /* ASRectView.m in Sources */,
+				DFE67FE81DC4D1260053AEBD /* ASImageSelector.m in Sources */,
+				DFE67FDD1DC4D0DC0053AEBD /* ViewController.m in Sources */,
 				DFE67FC91DC4D0BD0053AEBD /* AppDelegate.m in Sources */,
+				DFE67FE91DC4D1260053AEBD /* ASImageSelectorVC.m in Sources */,
 				DFE67FC61DC4D0BD0053AEBD /* main.m in Sources */,
+				DFE67FEB1DC4D1260053AEBD /* ASRectUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
