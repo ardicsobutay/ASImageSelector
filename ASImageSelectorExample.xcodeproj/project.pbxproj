@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF02637D1DC4DCEE0063CE60 /* ASImageSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0263751DC4DCEE0063CE60 /* ASImageSelector.m */; };
+		DF02637E1DC4DCEE0063CE60 /* ASImageSelectorVC.h in Headers */ = {isa = PBXBuildFile; fileRef = DF0263761DC4DCEE0063CE60 /* ASImageSelectorVC.h */; };
+		DF02637F1DC4DCEE0063CE60 /* ASImageSelectorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0263771DC4DCEE0063CE60 /* ASImageSelectorVC.m */; };
+		DF0263801DC4DCEE0063CE60 /* ASImageSelectorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF0263781DC4DCEE0063CE60 /* ASImageSelectorVC.xib */; };
+		DF0263811DC4DCEE0063CE60 /* ASRectUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = DF0263791DC4DCEE0063CE60 /* ASRectUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF0263821DC4DCEE0063CE60 /* ASRectUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DF02637A1DC4DCEE0063CE60 /* ASRectUtils.m */; };
+		DF0263831DC4DCEE0063CE60 /* ASRectView.h in Headers */ = {isa = PBXBuildFile; fileRef = DF02637B1DC4DCEE0063CE60 /* ASRectView.h */; };
+		DF0263841DC4DCEE0063CE60 /* ASRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF02637C1DC4DCEE0063CE60 /* ASRectView.m */; };
 		DFE67FC61DC4D0BD0053AEBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE67FC51DC4D0BD0053AEBD /* main.m */; };
 		DFE67FC91DC4D0BD0053AEBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE67FC81DC4D0BD0053AEBD /* AppDelegate.m */; };
 		DFE67FCF1DC4D0BD0053AEBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFE67FCD1DC4D0BD0053AEBD /* Main.storyboard */; };
@@ -16,11 +24,6 @@
 		DFE680051DC4D4C20053AEBD /* ASImageSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE680031DC4D4C20053AEBD /* ASImageSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFE680081DC4D4C20053AEBD /* ASImageSelector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFE680011DC4D4C20053AEBD /* ASImageSelector.framework */; };
 		DFE680091DC4D4C20053AEBD /* ASImageSelector.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DFE680011DC4D4C20053AEBD /* ASImageSelector.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DFE6800F1DC4D5450053AEBD /* ASImageSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE67FEF1DC4D2460053AEBD /* ASImageSelector.m */; };
-		DFE680101DC4D5450053AEBD /* ASImageSelectorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE67FF11DC4D2460053AEBD /* ASImageSelectorVC.m */; };
-		DFE680111DC4D5450053AEBD /* ASRectUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE67FF41DC4D2460053AEBD /* ASRectUtils.m */; };
-		DFE680121DC4D5450053AEBD /* ASRectView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE67FF61DC4D2460053AEBD /* ASRectView.m */; };
-		DFE680141DC4DB4C0053AEBD /* ASImageSelectorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFE67FF21DC4D2460053AEBD /* ASImageSelectorVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DF0263751DC4DCEE0063CE60 /* ASImageSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASImageSelector.m; sourceTree = "<group>"; };
+		DF0263761DC4DCEE0063CE60 /* ASImageSelectorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASImageSelectorVC.h; sourceTree = "<group>"; };
+		DF0263771DC4DCEE0063CE60 /* ASImageSelectorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASImageSelectorVC.m; sourceTree = "<group>"; };
+		DF0263781DC4DCEE0063CE60 /* ASImageSelectorVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ASImageSelectorVC.xib; sourceTree = "<group>"; };
+		DF0263791DC4DCEE0063CE60 /* ASRectUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASRectUtils.h; sourceTree = "<group>"; };
+		DF02637A1DC4DCEE0063CE60 /* ASRectUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASRectUtils.m; sourceTree = "<group>"; };
+		DF02637B1DC4DCEE0063CE60 /* ASRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASRectView.h; sourceTree = "<group>"; };
+		DF02637C1DC4DCEE0063CE60 /* ASRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASRectView.m; sourceTree = "<group>"; };
 		DFE67FC11DC4D0BD0053AEBD /* ASImageSelectorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASImageSelectorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE67FC51DC4D0BD0053AEBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFE67FC71DC4D0BD0053AEBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,15 +69,6 @@
 		DFE67FD51DC4D0BD0053AEBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFE67FDB1DC4D0DC0053AEBD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DFE67FDC1DC4D0DC0053AEBD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DFE67FEE1DC4D2460053AEBD /* ASImageSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASImageSelector.h; sourceTree = "<group>"; };
-		DFE67FEF1DC4D2460053AEBD /* ASImageSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASImageSelector.m; sourceTree = "<group>"; };
-		DFE67FF01DC4D2460053AEBD /* ASImageSelectorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASImageSelectorVC.h; sourceTree = "<group>"; };
-		DFE67FF11DC4D2460053AEBD /* ASImageSelectorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASImageSelectorVC.m; sourceTree = "<group>"; };
-		DFE67FF21DC4D2460053AEBD /* ASImageSelectorVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ASImageSelectorVC.xib; sourceTree = "<group>"; };
-		DFE67FF31DC4D2460053AEBD /* ASRectUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASRectUtils.h; sourceTree = "<group>"; };
-		DFE67FF41DC4D2460053AEBD /* ASRectUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASRectUtils.m; sourceTree = "<group>"; };
-		DFE67FF51DC4D2460053AEBD /* ASRectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASRectView.h; sourceTree = "<group>"; };
-		DFE67FF61DC4D2460053AEBD /* ASRectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASRectView.m; sourceTree = "<group>"; };
 		DFE680011DC4D4C20053AEBD /* ASImageSelector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASImageSelector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE680031DC4D4C20053AEBD /* ASImageSelector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASImageSelector.h; sourceTree = "<group>"; };
 		DFE680041DC4D4C20053AEBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -117,7 +119,6 @@
 				DFE67FCD1DC4D0BD0053AEBD /* Main.storyboard */,
 				DFE67FDB1DC4D0DC0053AEBD /* ViewController.h */,
 				DFE67FDC1DC4D0DC0053AEBD /* ViewController.m */,
-				DFE67FED1DC4D2460053AEBD /* ASImageSelector */,
 				DFE67FD01DC4D0BD0053AEBD /* Assets.xcassets */,
 				DFE67FD21DC4D0BD0053AEBD /* LaunchScreen.storyboard */,
 				DFE67FD51DC4D0BD0053AEBD /* Info.plist */,
@@ -134,26 +135,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DFE67FED1DC4D2460053AEBD /* ASImageSelector */ = {
-			isa = PBXGroup;
-			children = (
-				DFE67FEE1DC4D2460053AEBD /* ASImageSelector.h */,
-				DFE67FEF1DC4D2460053AEBD /* ASImageSelector.m */,
-				DFE67FF01DC4D2460053AEBD /* ASImageSelectorVC.h */,
-				DFE67FF11DC4D2460053AEBD /* ASImageSelectorVC.m */,
-				DFE67FF21DC4D2460053AEBD /* ASImageSelectorVC.xib */,
-				DFE67FF31DC4D2460053AEBD /* ASRectUtils.h */,
-				DFE67FF41DC4D2460053AEBD /* ASRectUtils.m */,
-				DFE67FF51DC4D2460053AEBD /* ASRectView.h */,
-				DFE67FF61DC4D2460053AEBD /* ASRectView.m */,
-			);
-			path = ASImageSelector;
-			sourceTree = "<group>";
-		};
 		DFE680021DC4D4C20053AEBD /* ASImageSelector */ = {
 			isa = PBXGroup;
 			children = (
 				DFE680031DC4D4C20053AEBD /* ASImageSelector.h */,
+				DF0263751DC4DCEE0063CE60 /* ASImageSelector.m */,
+				DF0263761DC4DCEE0063CE60 /* ASImageSelectorVC.h */,
+				DF0263771DC4DCEE0063CE60 /* ASImageSelectorVC.m */,
+				DF0263781DC4DCEE0063CE60 /* ASImageSelectorVC.xib */,
+				DF0263791DC4DCEE0063CE60 /* ASRectUtils.h */,
+				DF02637A1DC4DCEE0063CE60 /* ASRectUtils.m */,
+				DF02637B1DC4DCEE0063CE60 /* ASRectView.h */,
+				DF02637C1DC4DCEE0063CE60 /* ASRectView.m */,
 				DFE680041DC4D4C20053AEBD /* Info.plist */,
 			);
 			path = ASImageSelector;
@@ -166,7 +159,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF02637E1DC4DCEE0063CE60 /* ASImageSelectorVC.h in Headers */,
 				DFE680051DC4D4C20053AEBD /* ASImageSelector.h in Headers */,
+				DF0263811DC4DCEE0063CE60 /* ASRectUtils.h in Headers */,
+				DF0263831DC4DCEE0063CE60 /* ASRectView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFE680141DC4DB4C0053AEBD /* ASImageSelectorVC.xib in Resources */,
+				DF0263801DC4DCEE0063CE60 /* ASImageSelectorVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,10 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFE6800F1DC4D5450053AEBD /* ASImageSelector.m in Sources */,
-				DFE680101DC4D5450053AEBD /* ASImageSelectorVC.m in Sources */,
-				DFE680111DC4D5450053AEBD /* ASRectUtils.m in Sources */,
-				DFE680121DC4D5450053AEBD /* ASRectView.m in Sources */,
+				DF02637D1DC4DCEE0063CE60 /* ASImageSelector.m in Sources */,
+				DF0263821DC4DCEE0063CE60 /* ASRectUtils.m in Sources */,
+				DF0263841DC4DCEE0063CE60 /* ASRectView.m in Sources */,
+				DF02637F1DC4DCEE0063CE60 /* ASImageSelectorVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +505,7 @@
 				DFE6800B1DC4D4C20053AEBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
