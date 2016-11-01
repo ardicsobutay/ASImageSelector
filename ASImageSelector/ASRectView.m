@@ -32,10 +32,10 @@
     UIRectFill(rect);
 
     [[UIColor colorWithRed:0.95 green:0.55 blue:0.0 alpha:0.7] setFill];
-    CGRect leftUp = [ASRectUtils leftUpCornerOfRect:_selectionRect withMargin:25 borderStroke:3];
-    CGRect leftDown = [ASRectUtils leftDownCornerOfRect:_selectionRect withMargin:25 borderStroke:3];
-    CGRect rightUp = [ASRectUtils rightUpCornerOfRect:_selectionRect withMargin:25 borderStroke:3];
-    CGRect rightDown = [ASRectUtils rightDownCornerOfRect:_selectionRect withMargin:25 borderStroke:3];
+    CGRect leftUp = [ASRectUtils leftUpCornerOfRect:_selectionRect withMargin:self.cornerSize borderStroke:self.borderStroke];
+    CGRect leftDown = [ASRectUtils leftDownCornerOfRect:_selectionRect withMargin:self.cornerSize borderStroke:self.borderStroke];
+    CGRect rightUp = [ASRectUtils rightUpCornerOfRect:_selectionRect withMargin:self.cornerSize borderStroke:self.borderStroke];
+    CGRect rightDown = [ASRectUtils rightDownCornerOfRect:_selectionRect withMargin:self.cornerSize borderStroke:self.borderStroke];
     UIRectFill(leftUp);
     UIRectFill(leftDown);
     UIRectFill(rightUp);
@@ -44,19 +44,19 @@
     [[UIColor clearColor] setFill];
     UIRectFill(_selectionRect);
     
-    //[self drawTouchAreas];
+    if (!self.setTouchAreasHidden) {
+        [self drawTouchAreas];
+    }
 }
 
 - (void)drawTouchAreas {
-    float touchMargin = 25.0f+ 10;
-    float borderStroke = 3.0f+ 20;
     
     [[UIColor redColor] setStroke];
-    CGRect middle = [ASRectUtils innerRectOfRect:_selectionRect withMargin:5];
-    CGRect leftUp = [ASRectUtils leftUpCornerOfRect:_selectionRect withMargin:touchMargin borderStroke:borderStroke];
-    CGRect leftDown = [ASRectUtils leftDownCornerOfRect:_selectionRect withMargin:touchMargin borderStroke:borderStroke];
-    CGRect rightUp = [ASRectUtils rightUpCornerOfRect:_selectionRect withMargin:touchMargin borderStroke:borderStroke];
-    CGRect rightDown = [ASRectUtils rightDownCornerOfRect:_selectionRect withMargin:touchMargin borderStroke:borderStroke];
+    CGRect middle = _selectionRect;
+    CGRect leftUp = [ASRectUtils leftUpCornerOfRect:_selectionRect withMargin:self.touchMargin borderStroke:self.borderTouchMargin];
+    CGRect leftDown = [ASRectUtils leftDownCornerOfRect:_selectionRect withMargin:self.touchMargin borderStroke:self.borderTouchMargin];
+    CGRect rightUp = [ASRectUtils rightUpCornerOfRect:_selectionRect withMargin:self.touchMargin borderStroke:self.borderTouchMargin];
+    CGRect rightDown = [ASRectUtils rightDownCornerOfRect:_selectionRect withMargin:self.touchMargin borderStroke:self.borderTouchMargin];
     
     UIBezierPath *touchMiddle = [UIBezierPath bezierPathWithRect:middle];
     UIBezierPath *touchLeftUp = [UIBezierPath bezierPathWithRect:leftUp];

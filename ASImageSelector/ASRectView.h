@@ -10,6 +10,12 @@
 
 @interface ASRectView : UIView
 
+@property (nonatomic, assign) CGFloat touchMargin;
+@property (nonatomic, assign) CGFloat borderTouchMargin;
+@property (nonatomic, assign) CGFloat borderStroke;
+@property (nonatomic, assign) CGFloat cornerSize;
+@property (nonatomic, assign) BOOL setTouchAreasHidden;
+
 - (void)setSelectionRect:(CGRect)rect;
 
 @end
