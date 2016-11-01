@@ -51,7 +51,7 @@ typedef enum {
     self = [[ASImageSelectorVC alloc] initWithNibName:@"ASImageSelectorVC" bundle:[NSBundle bundleForClass:[ASImageSelectorVC class]]];
     _image = image;
     _selectionRect = rect;
-    _selectionBoxMinLimit = 150.0;
+    _selectionBoxMinLimit = 120.0;
     return self;
 }
 
@@ -61,20 +61,20 @@ typedef enum {
     [super viewDidLoad];
     
     [_imageView setImage:_image];
+}
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
     _asRectView = [[ASRectView alloc] initWithFrame:_imageView.frame];
     _asRectView.cornerSize = 25.0;
     _asRectView.borderStroke = 3.0;
     _asRectView.touchMargin = 35.0;
     _asRectView.borderTouchMargin = 23.0;
-    _asRectView.setTouchAreasHidden = NO;
+    _asRectView.setTouchAreasHidden = YES;
     [_asRectView setHidden:YES];
     
     [_imageView addSubview:_asRectView];
-}
-
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
     
     _imageRect = [ASRectUtils getFrameInImageView:_imageView];
     _imageStartingPoint = CGPointMake(_imageRect.origin.x, _imageRect.origin.y);
